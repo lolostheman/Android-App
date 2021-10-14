@@ -112,8 +112,8 @@ public class HomeFragment extends Fragment {
                 return false;
             } else {
                 container.setVisibility(View.VISIBLE);
-                container.setMaxHeight(250);
-                container.setMinHeight(250);
+                container.setMaxHeight(450);
+                container.setMinHeight(450);
                 return true;
             }
     };
