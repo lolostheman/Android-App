@@ -19,14 +19,20 @@ public class DashboardFragment extends Fragment {
 
     private DashboardViewModel dashboardViewModel;
     private FragmentDashboardBinding binding;
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState){
+        super.onCreate((savedInstanceState));
+    }
 
+    @Nullable
+    @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         dashboardViewModel =
                 new ViewModelProvider(this).get(DashboardViewModel.class);
-
+        View view = inflater.inflate(R.layout.fragment_dashboard, container,false);
         binding = FragmentDashboardBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
+        //View root = binding.getRoot();
 
         final TextView textView = binding.textDashboard;
         dashboardViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
@@ -35,7 +41,8 @@ public class DashboardFragment extends Fragment {
                 textView.setText(s);
             }
         });
-        return root;
+        //return root;
+        return view;
     }
 
     @Override
