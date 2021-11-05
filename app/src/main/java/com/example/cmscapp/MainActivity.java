@@ -87,6 +87,11 @@ public class MainActivity extends AppCompatActivity {
         System.out.println(jsonResponses);
     }
 
+    public void openNextPage(View view) {
+        Intent intent = new Intent(this, MainActivity2.class);
+        startActivity(intent);
+    }
+
 //    String url = "http://exampleserver.com/route";
 //
 //    RequestQueue ExampleRequestQueue = Volley.newRequestQueue(this);
