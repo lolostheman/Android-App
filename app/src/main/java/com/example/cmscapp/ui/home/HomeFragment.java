@@ -485,6 +485,187 @@ public class HomeFragment extends Fragment {
             }else{
                 checkedIngredients.remove("mushrooms");
             }}});
+        checkBoxFlour.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("flour");
+            }else{
+                checkedIngredients.remove("flour");
+            }}});
+        checkBoxBakingSoda.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("baking soda");
+            }else{
+                checkedIngredients.remove("baking soda");
+            }}});
+        checkBoxSugar.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("sugar");
+            }else{
+                checkedIngredients.remove("sugar");
+            }}});
+        checkBoxCinamon.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("cinamon");
+            }else{
+                checkedIngredients.remove("cinamon");
+            }}});
+        checkBoxChocolates.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("chocolate");
+            }else{
+                checkedIngredients.remove("chocolate");
+            }}});
+        checkBoxBakingPowder.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("baking powder");
+            }else{
+                checkedIngredients.remove("baking powder");
+            }}});
+        checkBoxYeast.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("yeast");
+            }else{
+                checkedIngredients.remove("yeast");
+            }}});
+        checkBoxMolasses.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("molasses");
+            }else{
+                checkedIngredients.remove("molasses");
+            }}});
+        checkBoxMilk.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("milk");
+            }else{
+                checkedIngredients.remove("milk");
+            }}});
+        checkBoxIceCream.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("ice cream");
+            }else{
+                checkedIngredients.remove("ice cream");
+            }}});
+        checkBoxCheese.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("cheese");
+            }else{
+                checkedIngredients.remove("cheese");
+            }}});
+        checkBoxYogurt.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("yogurt");
+            }else{
+                checkedIngredients.remove("yogurt");
+            }}});
+        checkBoxCream.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("cream");
+            }else{
+                checkedIngredients.remove("cream");
+            }}});
+        checkBoxCreamCheese.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("cream cheese");
+            }else{
+                checkedIngredients.remove("cream cheese");
+            }}});
+        checkBoxButter.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("butter");
+            }else{
+                checkedIngredients.remove("butter");
+            }}});
+        checkBoxEggs.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("eggs");
+            }else{
+                checkedIngredients.remove("eggs");
+            }}});
+        checkBoxWhey.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("whey");
+            }else{
+                checkedIngredients.remove("whey");
+            }}});
+        checkBoxWhippedCream.setOnClickListener(new View.OnClickListener()
+        {@Override
+        public void onClick (View view){
+            boolean checked = ((CheckBox) view).isChecked();
+            // Check which checkbox was clicked
+            if (checked) {
+                checkedIngredients.add("whipped cream");
+            }else{
+                checkedIngredients.remove("whipped cream");
+            }}});
+
 
 
 
