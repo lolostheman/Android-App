@@ -69,4 +69,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void uncheckBoxes(View view) {
+        // cycle through the checkedIngredients list(interface?)
+    }
 }
